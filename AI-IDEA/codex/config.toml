@@ -1,0 +1,11 @@
+# ~/.codex/config.toml
+
+[agents]
+# 最大并行线程
+max_threads = 6
+
+# 最大嵌套深度
+max_depth = 1
+
+# 单任务超时
+job_max_runtime_seconds = 1800

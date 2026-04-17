@@ -1,0 +1,22 @@
+# ~/.codex/rules/default.rules
+
+# 允许 Git 命令
+prefix_rule(
+    pattern = ["git"],
+    decision = "allow",
+    justification = "Git commands are safe"
+)
+
+# 禁止 rm -rf /
+prefix_rule(
+    pattern = ["rm", "-rf", "/"],
+    decision = "forbidden",
+    justification = "Prevent system damage"
+)
+
+# 询问 npm 命令
+prefix_rule(
+    pattern = ["npm"],
+    decision = "prompt",
+    justification = "npm may modify dependencies"
+)
