@@ -1,8 +1,8 @@
-# Claude Code Template for Spring Boot Application
+# Claude Spring Boot 应用程序代码模板
 
-This template provides a structured starting point for Spring Boot applications, optimized for Claude AI's code completion capabilities. It includes essential configurations and best practices to streamline development and enhance productivity.
+此模板为 Spring Boot 应用程序提供了一个结构化的起点，并针对 Claude AI 的代码补全功能进行了优化。它包含了必要的配置和最佳实践，可简化开发流程并提高效率。
 
-The idea behind this template is that you can just clone this repository and use it to generate the app you want with Claude Code.
+这个模板背后的理念是，您可以克隆这个存储库，并使用它来生成您想要的 Claude Code 应用程序。
 
 ```shell
 .
@@ -54,4 +54,4 @@ The idea behind this template is that you can just clone this repository and use
 └── pom.xml
 ```
 
-You can find the detailed explanation and description of that that template in my post [Claude Code Template for Spring Boot](https://piotrminkowski.com/2026/03/24/claude-code-template-for-spring-boot/).
+您可以在我的帖子[Spring Boot 的 Claude 代码模板](https://piotrminkowski.com/2026/03/24/claude-code-template-for-spring-boot/)中找到该模板的详细解释和描述。 
