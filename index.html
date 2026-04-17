@@ -35,7 +35,7 @@
         try {
             // 调用 Apify LLM Radar Actor API (需要免费 API Token)
             // 注册 Apify 获取免费 token: https://apify.com
-            const token = 'apify_api_sChxAcU7iwFus3fv6BwIA35kZlqN2H2hVBP5'; // 替换为你的 token
+            const token = 'xxx'; // 替换为你的 token
             const response = await fetch('https://api.apify.com/v2/acts/datahq~llm-radar/runs/last/dataset/items?token=' + token);
             
             if (!response.ok) throw new Error(`API请求失败: ${response.status}`);
